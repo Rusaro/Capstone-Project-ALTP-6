@@ -1,0 +1,16 @@
+.about-me-container{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    
+}
+.abt-me-bot-top, .abt-me-bot-bot{
+    display: flex;
+    justify-content: space-between;
+}
+.abt-me-bot-top-left, .abt-me-bot-top-right{
+    width: 35%;
+}

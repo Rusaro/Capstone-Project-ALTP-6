@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    align-items: center;
+}
+.header-logo a, .header-links a{
+    text-decoration: none;
+    color: black;
+
+}
+.header-logo{
+    list-style: none;
+    margin-right: 5vw;
+    margin-left: 3vw;
+
+}
+.header-logo a{
+    font-size: 130px;
+    font-weight: lighter;
+}
+.header-links{
+    list-style: none;
+    margin-right: 2vw;
+}
+.header-links a{
+    font-size: 1.5rem;
+}
+.header-links span{
+    margin-left: 2vw;
+}

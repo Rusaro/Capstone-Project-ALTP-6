@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100;
+}
+.left-side{
+    width: fit-content;
+    height: fit-content;
+    margin-left: 3vw;
+}
+.right-side{
+    width: fit-content;
+    text-align: right;
+}
+.right-side img{
+    width: 35%;
+    height: 35%;
+    border-radius: 15625px;
+    margin-right: 3vw;
+}
+.icons{
+    display: flex;
+}
+.icon{
+    margin-right: 2vw;
+}
+.icon{
+    list-style: none;
+}
+.l-title{
+    margin-bottom: 5vh;
+}

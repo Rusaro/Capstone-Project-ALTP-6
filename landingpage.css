@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100;
+    margin-top: 100px;
 }
 .left-side{
     width: fit-content;
@@ -29,5 +29,22 @@
     list-style: none;
 }
 .l-title{
-    margin-bottom: 5vh;
+    margin-bottom: 50px;
+    font-size: 100px;
+    font-weight: 300;
+}
+.cont-lf-line{
+    width: 30%;
+    height: 2px;
+    background-color: #E85A4F;
+    margin-bottom: 30px;
+}
+.sub-content{
+    font-size: 30px;
+    font-weight: 300;
+}
+.sub-title{
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: capitalize;
 }

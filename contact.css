@@ -16,15 +16,33 @@
     flex-direction: column;
     width: 80%;
 }
-.r-side form input{
+.r-side form input[type="text"], .r-side form input[type="text"], .r-side form input[type="email"]{
     margin-bottom: 2vh;
-    padding: 10px 20px;
+    padding: 10px 10px;
     width: 100%;
-    border-radius: 10px;
-    border: .5px solid #000;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    background-color: #C4C4C4;
+}
+#contact-message-id{
+    height: 150px;
 }
 #cont-but{
-    width: 40%;
-    border: .5px solid #000;
+    background-color: #C4C4C4;
+    width: fit-content;
+    border: none;
+    border-radius: 2px;
     display: flex;
+    align-self: flex-end;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+}
+#cont-but:hover{
+    background-color: #000;
+    color: #fff;
+    transition: .3s;
+    
 }

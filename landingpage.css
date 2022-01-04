@@ -1,8 +1,11 @@
 .container{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 100px 0 50px 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-top: 100px;
+    align-items: flex-end;
 }
 .left-side{
     width: fit-content;
@@ -14,8 +17,8 @@
     text-align: right;
 }
 .right-side img{
-    width: 35%;
-    height: 35%;
+    width: 40%;
+    height: auto;
     border-radius: 15625px;
     margin-right: 3vw;
 }
@@ -24,18 +27,26 @@
 }
 .icon{
     margin-right: 2vw;
-}
-.icon{
     list-style: none;
+}
+.icon a{
+    text-decoration: none;
+    color: #E85A4F;
+}
+.icon a:hover{
+    transition: all .3s ease-out;
+    border-bottom: 2px solid #E85A4F;
+    padding-bottom: 3px;
 }
 .l-title{
     margin-bottom: 50px;
-    font-size: 100px;
+    font-size: 80px;
     font-weight: 300;
 }
 .cont-lf-line{
     width: 30%;
-    height: 2px;
+    height: 3px;
+    border-radius: 50%;
     background-color: #E85A4F;
     margin-bottom: 30px;
 }
@@ -47,4 +58,5 @@
     font-size: 60px;
     font-weight: 400;
     text-transform: capitalize;
+    margin-bottom: 20px;
 }

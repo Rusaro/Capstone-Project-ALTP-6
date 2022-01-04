@@ -49,13 +49,13 @@
     background-color: #3F3950;
     color: #fff;
     border-radius: 2px;
+    border: 2px solid #3F3950;
 }
 #contact-but:hover{
     background-color: #fff;
     color: #3F3950;
-    border: 2px solid #3F3950;
     border-radius: 2px;
-    transition: .3s;
+    transition: .3s ease-out;
 }
 #more-but{
     background-color: #fff;
@@ -67,7 +67,7 @@
     background-color: #3F3950;
     color: #fff;
     border-radius: 2px;
-    transition: .3s;
+    transition: .3s ease-in;
 }
 .abt-me-bot-top, .abt-me-bot-bot{
     display: flex;

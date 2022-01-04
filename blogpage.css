@@ -1,9 +1,30 @@
 .blog-container{
     display: flex;
-    flex-direction:column ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.blog-top h1{
+.ace{
     text-align: center;
+    font-size: 80px;
+    font-weight: 300;
+    letter-spacing: 5px; 
+    margin-bottom: 30px;  
+}
+.blog-top h2{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    line-height: 70px;
+    margin-bottom: 50px;
+}
+.blog-top-line{
+    width: 25%;
+    border-radius: 50%;
+    margin: 0 auto 100px auto;
+    height: 3px;
+    background-color: #000;
 }
 .blog-img{
     display: flex;
@@ -11,34 +32,67 @@
     align-items: center;
     margin: auto;
     width: fit-content;
+    margin-bottom: 100px;
 }
 .blog-img-img{
-    width: 70%;
-    
+    max-width: 100%;
+}
+.sub-blog, .sub-blog-bot{
+    margin: auto;
 }
 .sub-blog{
-    width:50%;
-    margin: auto;
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: justify;
 }
-.sub-blog h1, h6, p{
-    margin-bottom: 2vh;
+.sub-blog h1{
+    font-size: 45px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-align: center !important;
+}
+.Written, .sub-blog p{
+    margin-bottom: 5vh;
 }
 .sub-blog p{
-    margin-bottom: 3vh;
+    color: #000;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.sub-blog h6{
+    font-size: 15px;
+    font-weight: 400;
 }
 .sub-blog-bot{
-    width: 50%;
-    margin: auto;
+    width: 75%;
+    border-top: 2px solid #000;
+    padding-top: 40px;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
+    margin-bottom: 100px;   
 }
-.ace{
-    text-align: center;
+.left-cont p, .right-cont p{
+    margin-bottom: 20px;
+}
+.right-cont{
+    text-align: right;
+}
+.left-cont p a, .right-cont p a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.left-cont p a:hover, .right-cont p a:hover{
+    color: #550808;
+    border-bottom: 2px solid #550808;
+    padding-bottom: 3px;
+    transition: all .3s ease-in-out; 
 }
 .blog-bot{
     width: 100%;
@@ -46,6 +100,11 @@
 }
 .blog-bot h3{
     background-color: #000;
+    text-shadow: 2px 2px 3px #fff;
     color: #fff;
-    font-weight: lighter;
+    font-size: 25px;
+    font-weight: 300;
+    padding: 50px 0;
+    letter-spacing: 5px;
+    text-transform: capitalize;
 }

@@ -2,23 +2,25 @@
     display: flex;
     justify-content: space-evenly;
     background: #550808;
-    height: 30vh;
+    height: 300px;
     color: #fff;
     align-items: center;
     width: 100%;
 }
+
 .Links li{
     list-style: none;
-
 }
 .footer-icons{
     display: flex;
+    margin-bottom: 30px;
 }
 .footer-icons li{
     list-style: none;
 }
 .Ace{
-    align-items: flex-start;
-    font-size: 4rem;
-    font-weight: lighter;
+    display: flex;
+    font-size: 100px;
+    font-weight: 300;
+    
 }

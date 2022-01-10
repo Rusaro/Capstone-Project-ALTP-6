@@ -63,8 +63,10 @@
     letter-spacing: 2px;
 }
 .sub-blog h6{
+    color: #E85A4F;
     font-size: 15px;
     font-weight: 400;
+    letter-spacing: 2px;
 }
 .sub-blog-bot{
     width: 75%;
@@ -89,8 +91,8 @@
     font-weight: 400;
 }
 .left-cont p a:hover, .right-cont p a:hover{
-    color: #550808;
-    border-bottom: 2px solid #550808;
+    color: #E85A4F;
+    border-bottom: 2px solid #E85A4F;
     padding-bottom: 3px;
     transition: all .3s ease-in-out; 
 }
@@ -100,11 +102,75 @@
 }
 .blog-bot h3{
     background-color: #000;
-    text-shadow: 2px 2px 3px #fff;
     color: #fff;
     font-size: 25px;
     font-weight: 300;
     padding: 50px 0;
     letter-spacing: 5px;
     text-transform: capitalize;
+}
+
+/* Mobile Designs */
+@media (max-width:915px){
+    .blog-container{
+        width: 85%;
+        margin: auto;
+    }
+    .ace{
+        font-size: 40px;
+        font-weight: 400;
+    }
+    .blog-top h2{
+        font-size: 24px;
+        font-weight: 300;
+        letter-spacing: 2px;
+        line-height: 30px;
+    }
+    .blog-top-line{
+        width: 30%;
+        margin: 0 auto 80px auto;
+    }
+    .blog-img{
+        margin-bottom: 50px;
+    }
+    .blog-img-img{
+        box-shadow: .5px .5px 10px #000;
+    }
+    .sub-blog{
+        width: 100%;
+    }
+    .sub-blog h1{
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        margin-bottom: 5px;
+    }
+    .Written, .sub-blog p{
+        margin-bottom: 30px;
+    }
+    .sub-blog p{
+        font-size: 13px;
+    }
+    .sub-blog h6{
+        font-size: 10px;
+    }
+    .sub-blog-bot{
+        width: 100%;
+        padding-top: 20px;
+        margin-bottom: 0;   
+    }
+    .hide-p{
+        display: none;
+    }
+    .left-cont p a, .right-cont p a{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .blog-bot h3{
+        font-size: 15px;
+        font-weight: 200;
+        padding: 50px 0;
+        letter-spacing: 2px;
+    }
+    
 }

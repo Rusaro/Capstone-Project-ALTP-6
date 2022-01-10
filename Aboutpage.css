@@ -5,9 +5,7 @@
     align-items: center;
     width: 80%;
     margin: 100px auto;
-    
 }
-
 .about-me-top{
     display: flex;
     flex-direction: column;
@@ -55,7 +53,7 @@
     background-color: #fff;
     color: #3F3950;
     border-radius: 2px;
-    transition: .3s ease-out;
+    transition: all .4s ease;
 }
 #more-but{
     background-color: #fff;
@@ -67,7 +65,7 @@
     background-color: #3F3950;
     color: #fff;
     border-radius: 2px;
-    transition: .3s ease-in;
+    transition: all .4s ease;
 }
 .abt-me-bot-top, .abt-me-bot-bot{
     display: flex;
@@ -82,6 +80,8 @@
     width: 1100px;
     height: 500px;
     margin-bottom: 50px;
+    border-radius: 2px;
+    box-shadow: .5px .5px 10px #3F3950;
 }
 .Hello-title, .design-title, .abt-me-bot-top-left p, .abt-me-bot-top-right p, .creative-design, .development{
     text-align: left;
@@ -100,4 +100,62 @@
 .abt-me-bot-top-left p, .abt-me-bot-top-right p{
     font-size: 15px;
     font-weight: 300;
-}   
+}
+
+/* Mobile Designs */
+@media (max-width:915px){
+    .about-me-container{
+        width: 90%;
+    }
+    .about-me-middle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        width: fit-content;
+    }
+    .middle-img{
+        width: 100%;
+        height: auto;        
+    }
+    .about-me-top{
+        width: 100%;
+    }
+    .beauty-title{
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    .about-me-top h1{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .about-me-top input[type="submit"]{
+        border: none;
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .about-me-top-buttons{
+        width: 90%;
+        margin: 0 auto 70px auto;    
+    }
+    .Hello-title{
+        font-size: 25px;
+        font-weight: 300;
+        margin-bottom: 10px;
+
+    }
+    .design-title, .creative-design, .development{
+        font-size: 20px;
+    }
+    .abt-me-bot-top, .abt-me-bot-bot{
+        flex-direction: column;
+    }
+    .abt-me-bot-top-left, .abt-me-bot-top-right{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .abt-me-bot-top-left p, .abt-me-bot-top-right p{
+        font-size: 14px;
+        text-align: justify;
+    }
+}

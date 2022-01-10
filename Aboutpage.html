@@ -5,16 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
     <title>About Me</title>
 </head>
 <body>
-    <header class="header">
-        <li class="header-logo"><a href="index.html">Ace</a></li>
-        <li class="header-links"><a href="index.html">Home</a><span>|</span></li>
-        <li class="header-links"><a href="Aboutpage.html" class="header-links-active">About</a><span>|</span></li>
-        <li class="header-links"><a href="contact.html">Contact</a><span>|</span></li>
-        <li class="header-links"><a href="blogpage.html">Blog</a><span>|</span></li>
-        <li class="header-links"><a href="login.html">Log in </a></li>
+    <header>
+        <div class="nav">
+            <div class="header-title-logo"><a href="index.html">ACE</a></div>
+            <div class="openMenu"><i class="fa fa-bars"></i></div>
+            <ul class="mainMenu">
+                <li class="nav-links"><a href="index.html">Home</a></li>
+                <li class="nav-links"><a href="Aboutpage.html" class="nav-links-active">About</a></li>
+                <li class="nav-links"><a href="contact.html">Contact</a></li>
+                <li class="nav-links"><a href="blogpage.html">Blog</a></li>
+                <li class="nav-links"><a href="login.html">Log in </a></li>
+            <div class="closeMenu"><i class="fa fa-times"></i></div>
+            </ul>
+        </div>
+        <div class="header">
+            <li class="header-logo"><a href="index.html">Ace</a></li>
+            <li class="header-links"><a href="index.html">Home</a><span>|</span></li>
+            <li class="header-links"><a href="Aboutpage.html" class="header-links-active">About</a><span>|</span></li>
+            <li class="header-links"><a href="contact.html">Contact</a><span>|</span></li>
+            <li class="header-links"><a href="blogpage.html">Blog</a><span>|</span></li>
+            <li class="header-links"><a href="login.html">Log in </a></li>
+        </div>
     </header>
      <main class="about-me-container">
         <div class="about-me-top">
@@ -57,23 +72,20 @@
 
      </main>
      <footer class="footer">
-        <div>
+        <div class="side">
            <h1 class="Ace">Ace</h1>
         </div>
-        <div class="Links">
-                <h3>Links</h3>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="Aboutpage.html">About me</a>
-                </li>
-                <li>
-                    <a href="blogpage.html">Blog</a>
-                </li>
-        </div>
+        <div class="side1">
+            <div>
+                <h3 class="side1-h3">Links</h3>
+                <div class="Links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Aboutpage.html">About Me</a></li>
+                    <li><a href="blogpage.html">Blog</a></li>
+                </div>
+            </div>
         <div>
-           <h3>Socials</h3>
+           <h3 class="side1-h3">Socials</h3>
            <div class="footer-icons">
                 <li class="icon"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                     width="45" height="45"
@@ -89,9 +101,11 @@
                     viewBox="0 0 172 172"
                     style=" fill:#000000;"><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal" ><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#d01200"><path d="M86,17.2c-37.9948,0 -68.8,30.8052 -68.8,68.8c0,29.14827 18.13453,54.0424 43.72813,64.06427c-0.602,-5.44093 -1.14667,-13.7944 0.2408,-19.73413c1.24987,-5.3664 8.0668,-34.19933 8.0668,-34.19933c0,0 -2.05827,-4.12227 -2.05827,-10.21107c0,-9.56893 5.54413,-16.70693 12.44707,-16.70693c5.87093,0 8.7032,4.40893 8.7032,9.68933c0,5.90533 -3.75533,14.72893 -5.69893,22.90467c-1.62253,6.85133 3.43427,12.4356 10.18813,12.4356c12.2292,0 21.62613,-12.89427 21.62613,-31.50467c0,-16.47187 -11.8336,-27.99013 -28.73547,-27.99013c-19.5736,0 -31.0632,14.68307 -31.0632,29.8592c0,5.91107 2.27613,12.25213 5.11987,15.7036c0.56187,0.68227 0.64213,1.27853 0.47587,1.97227c-0.52173,2.17293 -1.67987,6.8456 -1.9092,7.80307c-0.29813,1.26133 -0.9976,1.52507 -2.29907,0.91733c-8.59427,-4.00187 -13.9664,-16.5636 -13.9664,-26.65427c0,-21.70067 15.76667,-41.63547 45.4596,-41.63547c23.86787,0 42.4152,17.00507 42.4152,39.73773c0,23.71307 -14.95253,42.7936 -35.70147,42.7936c-6.97173,0 -13.52493,-3.62347 -15.76667,-7.90053c0,0 -3.45147,13.13507 -4.28853,16.3572c-1.55373,5.97413 -5.7448,13.4676 -8.55413,18.03707c6.43853,1.98373 13.2784,3.0616 20.37053,3.0616c37.9948,0 68.8,-30.8052 68.8,-68.8c0,-37.9948 -30.8052,-68.8 -68.8,-68.8z"></path></g></g></svg></a></li>
            </div>
-           <p>nikitarania40@gmail.com</p>
+           <a class="footer-email" href="mailto:nikitarania40@gmail.com">nikitarania40@gmail.com</a>
        </div>
         </div>
+        </div>
     </footer>
+    <script src="./JS/app.js"></script>
 </body>
 </html>
